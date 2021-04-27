@@ -22,18 +22,14 @@ title: 知行杂货
 subtitle: Mind & Hand
 description: 知识在X轴上奔跑，向着无尽的未来，其终点就是上帝！
 email: jackhansenw@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://jooeeee.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jooeeee
 github_username:  jooeeee
 
 # Build settings
-<<<<<<< HEAD
 # theme: minima
 remote_theme: pmarsceill/just-the-docs
-=======
-theme: jekyll-theme-cayman
->>>>>>> 27ea205c73047f2dfae50f7a52a0860f34bd880a
 plugins:
   - jekyll-feed
 
