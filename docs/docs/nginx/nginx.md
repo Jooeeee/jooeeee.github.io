@@ -35,4 +35,4 @@ worker责任：
 master管理监控worker，那么master与worker直接需要通信，假定我们以多进程的方式运行，则可供选择的方式有
 
 ## 码源文件结构
-文件目录："/assets/images/nginx_code_struct.png"
+![文件目录](/assets/images/nginx_code_struct.png)
