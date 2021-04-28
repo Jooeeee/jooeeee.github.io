@@ -17,6 +17,7 @@ Mind & Hand.
 ---
 
 ## Getting started
+
 It's a wonderful world
 
 I'm just walking on air
@@ -32,6 +33,7 @@ Happy all day through
 It's a wonderful world
 
 Loving wonderful you
+
 ---
 
 ### Contributing
