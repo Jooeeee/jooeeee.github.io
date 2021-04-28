@@ -23,6 +23,7 @@ filter模块是过滤响应头和内容的模块，可以对响应的头和内�
 ---
 
 ##  1. 执行顺序
+
 	在每个模块内，先用本文件内的全局变量(ngx_http_next_header_filter)保存全局变量ngx_http_top_head_filter(此时，此函数指针指向了某个函数）。然后修改ngx_http_top_header_filter指针指向本模块的处理函数。最后在本模块的处理函数内完后逻辑后，执行ngx_http_next_header_filter，也就是把之前的函数执行。
 	总体来说，每个模块先执行本模块的处理函数，然后调用下一个模块的处理函数，像是一个链表，链表的头就是全局函数指针。函数的入口是这两个分别对应，调用这两个函数，最后会走到write_filter，输出内容。
 	   
@@ -73,5 +74,6 @@ filter模块是过滤响应头和内容的模块，可以对响应的头和内�
 	| ngx_http_write_filter_module | 始终打开，将输出链拷贝到r->out中，然后输出内容。 |
 	
 ##	2. 第三方模块
+
 	一般情况下，第三方过滤模块的config文件会将模块名追加到变量HTTP_AUX_FILTER_MODULES中，此时该模块只能加入到copy_filter和headers_filter模块之间执行。
 	实例：打印请求与响应
