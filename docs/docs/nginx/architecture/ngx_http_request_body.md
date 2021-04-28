@@ -1,7 +1,10 @@
 ---
 layout: default
 title: request 请求体获取过程
-parent: Nginx
+parent: Nginx Architecture
+grand_parent: Nginx
+nav_order: 10
+# permalink: docs/nginx/modules/
 ---
 
 *2021-03-08*
