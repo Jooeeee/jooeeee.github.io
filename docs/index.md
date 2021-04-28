@@ -36,12 +36,12 @@ Loving wonderful you
 
 ---
 
-### Contributing
+## Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/Jooeeee/jooeeee.github.io/).
 
-#### Thank you to the contributors!
+### Thank you to the contributors!
 
 <ul class="list-style-none">
 {% for contributor in site.github.contributors %}
