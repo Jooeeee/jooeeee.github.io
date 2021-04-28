@@ -4,7 +4,7 @@ title: Nginx Modules
 nav_order: 2
 parent: Nginx
 has_children: true
-# permalink: docs/nginx/modules
+permalink: docs/nginx/modules
 ---
 
 # Nginx 模块
